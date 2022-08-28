@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-project-test-ba374": {
+      "hosting": {
+        "firebase-angular-test": [
+          "fir-project-test-ba374"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-project-test-ba374"
+  }
+}

@@ -39,7 +39,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "10mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -101,6 +101,16 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "firebase-angular-test:build:production",
+            "firebaseProject": "fir-project-test-ba374",
+            "firebaseHostingSite": "fir-project-test-ba374"
           }
         }
       }
